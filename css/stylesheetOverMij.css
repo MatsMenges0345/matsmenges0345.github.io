@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header nav a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  background-image: url(grfx/bodybg.png);
+}
+
+header{
+  margin: 0 auto;
+  width: 60%;
+  background-image: url(grfx/headerbg.png);
+  height: 150px;
+  border-left: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
+}
+
+header h1{
+  margin-left: 12px;
+}
+
+header nav{
+  margin-top: 75px;
+  margin-left: 12px;
+}
+
+header nav a{
+  padding: 6px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 12px;
+}
+
+main{
+  margin: 0 auto;
+  width: 60%;
+  background-color: lightgrey;
+  border: 1px solid #b3b3b3;
+}
+
+#wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#main-content{
+  background-color: #f2f2f2;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #b3b3b3;
+  width: 58.97%;
+  padding-right: 6px;
+  padding-bottom: 3px;
+}
+
+#note{
+  width: 50px;
+  height: 150px;
+  margin-left: 24px;
+  margin-right: 12px;
+}
+
+#controller{
+  width: 200px;
+  height: 200px;
+  margin-left: 24px;
+}
+
+article img{
+  width: 300px;
+  height: 300px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+main h2{
+  padding-left: 12px;
+  padding-top: 6px;
+}
+
+main h3{
+  padding-left: 12px;
+  padding-top: 6px;
+}
+
+main p{
+  padding-left: 12px;
+}
+
+footer{
+  margin: 0 auto;
+  width: 60%;
+  background-color: lightgrey;
+  text-align: center;
+  border-left: 1px solid #b3b3b3;
+  border-right: 1px solid #b3b3b3;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+aside{
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  background-color: #f2f2f2;
+  border: 1px solid #b3b3b3;
+  height: 445px;
+}
+
+#main-content h3{
+  margin-top: 12px;
+}
+
+#cv{
+  width: 300px;
+  height: 400px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 3px;
+  border: 2px solid #b3b3b3;
+}
